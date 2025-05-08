@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: todo-app
-    image: khannashiv/todoapp:30
+    image: khannashiv/todoapp:32
     ports:
     - containerPort: 8000
