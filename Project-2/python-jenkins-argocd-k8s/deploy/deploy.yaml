@@ -1,4 +1,4 @@
-apiVersion: apps/26
+apiVersion: apps/27
 kind: Deployment
 metadata:
   name: todo-app
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todo
-        image: khannashiv/todo-app:26
+        image: khannashiv/todo-app:27
         ports:
         - containerPort: 8000
