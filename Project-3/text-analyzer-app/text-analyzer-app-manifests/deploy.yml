@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name:  text-analyzer-app
-        image: khannashiv/text-analyzer:43
+        image: khannashiv/text-analyzer:44
         ports:
         - containerPort: 8000
